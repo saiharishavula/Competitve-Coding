@@ -17,7 +17,7 @@ public class PashmakandFlowers {
 				min = a[i];
 		}
 		int min_c=0,max_c=0;
-		for(int i=0;i<n;i++)
+		for(int i=0;i<n;i++)  
 		{
 			if(a[i]==max)
 				max_c++;
