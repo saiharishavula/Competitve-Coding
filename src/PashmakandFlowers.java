@@ -21,7 +21,7 @@ public class PashmakandFlowers {
 		{
 			if(a[i]==max)
 				max_c++;
-			if(a[i]==min)
+			if(a[i]==min) 
 				min_c++;
 		}
 	   System.out.print(max-min+" ");
