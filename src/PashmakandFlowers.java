@@ -8,7 +8,7 @@ public class PashmakandFlowers {
 		int a[] = new int[n];
 		for(int i=0;i<n;i++)
 			a[i] = scan.nextInt();
-		int max = Integer.MIN_VALUE;
+		int max = Integer.MIN_VALUE; 
 		int min = Integer.MAX_VALUE;
 		for(int i=0;i<n;i++){
 			if(max<a[i])
