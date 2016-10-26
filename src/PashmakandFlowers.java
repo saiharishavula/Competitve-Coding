@@ -13,7 +13,7 @@ public class PashmakandFlowers {
 		for(int i=0;i<n;i++){
 			if(max<a[i])
 				max = a[i];
-			if(min>a[i])
+			if(min>a[i]) 
 				min = a[i];
 		}
 		int min_c=0,max_c=0;
