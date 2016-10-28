@@ -11,7 +11,7 @@ public class CrazyComputer {
        int count=1;
        for(int i=1;i<n;i++)
        {
-    	   curr = scan.nextInt();
+    	   curr = scan.nextInt(); 
     	   
     	   if((curr-prev)>k)
     		   count=1;
