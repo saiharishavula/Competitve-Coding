@@ -18,7 +18,7 @@ public class CrazyComputer {
     	   else
               count++;
     	   prev = curr;
-    	   System.out.print(count+" ");
+    	  // System.out.print(count+" ");
        }
        System.out.println("\n"+count);
 	}
