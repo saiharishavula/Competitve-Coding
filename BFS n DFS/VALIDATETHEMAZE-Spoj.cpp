@@ -2,16 +2,13 @@
 using namespace std;
 int n,m;
 string s[25];
+// copy rights @harish :P
 void dfs(int i,int j,int &out)
 {
-  //cout<<"p";
   if(s[i][j]=='.')
   {
     if(i==0 || i==n-1 || j==0 || j==m-1)
-    {
     out++;
-  //  cout<<i<<" "<<j<<endl;
-    }
     s[i][j]='#';
   }
   if(i+1<n && s[i+1][j]=='.')dfs(i+1,j,out);
@@ -37,9 +34,7 @@ int main()
       {
         s[i][j]='#';
         in++;
-      //  cout<<i<<" "<<j<<endl;
         dfs(i,j,out);
-      //  cout<<in<<" "<<out<<endl;
       }
     }
     if(in==1 && out==1)
