@@ -40,6 +40,6 @@ int main()
         temp.second = v[i].second;
       }
     }
-    cout<<ans<<endl;
+    cout<<ans<<endl; 
   }
 }
