@@ -16,5 +16,5 @@ int main()
       a[i+1] = a[i]+a[i+1];
     }
     cout<<ans<<endl;
-  }
+  } 
 }
