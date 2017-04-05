@@ -19,7 +19,7 @@ bool isConnected() {
 	Q.push(i);
 	while(!Q.empty()) {
 		i = Q.front();
-    Q.pop();
+                Q.pop();
 		for(j=0; j<26; j++) {
 			if((g[i][j] || g[j][i]) && found[j] == 1) {
 				Q.push(j);
