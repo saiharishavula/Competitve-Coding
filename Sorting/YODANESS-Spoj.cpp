@@ -63,6 +63,6 @@ int main()
       cin>>s;
       a[i] = m[s];
     }
-    cout<<mergesort(a,0,n-1)<<endl;
+    cout<<mergesort(a,0,n-1)<<endl; 
   }
 }
