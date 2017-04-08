@@ -14,7 +14,7 @@ int main()
 {
   long long n;
   while(cin>>n)
-  {
+  { 
   cout<<dp(n)<<endl;
   }
 }
