@@ -1,0 +1,102 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int t;
+	long long int a,b;
+	scanf("%d",&t);
+	while(t--)
+	{
+		scanf("%lld%lld",&a,&b);
+		int k=a%10;
+		if(b==0)
+		{
+		printf("1\n");	
+		continue;
+		}
+		if(k==0)
+		{
+			printf("0\n");
+			continue;
+		}
+		b=b%4;
+		if(b==0)
+		b=4;
+		int p=pow(k,b);
+		p=p%10;
+		printf("%d\n",p);
+		
+	/*	if(k==1)
+		printf("1\n");
+		if(k==2)
+		{
+			b=b%4;
+			if(b==1)
+			printf("2\n");
+			if(b==2)
+			printf("4\n");
+			if(b==3)
+			printf("8\n");
+			if(b==0)
+			printf("6\n");
+		}
+		if(k==3)
+		{
+			b=b%4;
+			if(b==1)
+			printf("3\n");
+			if(b==2)
+			printf("9\n");
+			if(b==3)
+			printf("7\n");
+			if(b==0)
+			printf("1\n");
+		}
+		if(k==4)
+		{
+			b=b%2;
+			if(b==1)
+			printf("4\n");
+			if(b==0)
+			printf("6\n");
+		}
+		if(k==7)
+		{
+			b=b%4;
+			if(b==1)
+			printf("7\n");
+			if(b==2)
+			printf("9\n");
+			if(b==3)
+			printf("3\n");
+			if(b==0)
+			printf("1\n");
+		}
+		if(k==8)
+		{
+			b=b%4;
+			if(b==1)
+			printf("8\n");
+			if(b==2)
+			printf("4\n");
+			if(b==3)
+			printf("2\n");
+			if(b==0)
+			printf("6\n");
+		}
+		if(k==9)
+		{
+			b=b%2;
+			if(b==1)
+			printf("9\n");
+			if(b==0)
+			printf("1\n");
+
+		}
+		if(k==6)
+		printf("6\n");
+		if(k==5)
+		printf("5\n");*/
+		
+	}
+}
